@@ -1,17 +1,18 @@
 .spotifysidebar {
-  position: absolute;
-  width: 20%;
   height: 100vh;
-  background-color: #191414;
+  /* background-color: #191414; */
+  position: fixed;
 }
 
 .maincontent {
-  position: relative;
-  left: 20%;
-  height: 100vh;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
+  /* color: #fff; */
 }
 
 .sidebarcol:hover {
   background-color: brown;
+}
+
+* {
+  overflow-x: hidden;
 }
